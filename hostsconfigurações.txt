@@ -1,0 +1,27 @@
+Foi tudo alterado neste ficheiro:
+C:/xampp/htdocs/
+Planeta_Aquarela/backend
+Planeta_Aquarela/frontend
+
+Alterações:
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
+...
+<VirtualHost :80>
+    DocumentRoot "C:/xampp/htdocs/Planeta_Aquarela/frontend"
+    ServerName planetaaquarela.com
+</VirtualHost>
+
+<VirtualHost:81>
+    DocumentRoot "C:/xampp/htdocs/Planeta_Aquarela/backend"
+    ServerName planetaaquarela.com
+</VirtualHost>
+
+C:\xampp\apache\conf\httpd.conf
+...
+Listen 80
+Listen 81
+...
+
+(admin) C:\Windows\System32\drivers\etc\hosts
+...
+127.0.0.1      planetaaquarela.com
