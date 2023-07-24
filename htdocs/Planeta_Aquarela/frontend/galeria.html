@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Aquarela</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/website.css">
+  <link rel="icon" href="images/logo.webp">
+
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar  navbar-expand-md fixed-top">
+    <div class="container"><a class="navbar-brand d-flex align-items-center " href="index.php">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.webp" alt="" class="img-fluid" width="120"></a>
+            </div>
+        </a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1">
+            <span class="navbar-toggler-icon"></span></button>
+        <div id="navcol-1" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link titulo" href="quemsomos.html" style="color: black"
+                        >Quem
+                        somos</a></li>
+                <li class="nav-item"><a class="nav-link titulo" href="atividades.html"  style="color: black"
+                       >Atividades</a></li>
+
+                <li class="nav-item"><a class="nav-link titulo" href="galeria.html"  style="color: black"
+                        >Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titulo" href="festasdeanos.html"  style="color: black"
+                        >Aniversários</a>
+                </li>
+
+            </ul>
+            <hr class="d-md-none">
+            
+        </div>
+    </div>
+    </div>
+    </div>
+</nav>
+  <main>
+
+    <section id="portfolio" class="clearfix" style="margin-top: 150px;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="titulo text-uppercase fs-1 text-center">Galeria</div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div id="fotosContainer"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-2">
+                <h4 class="text-uppercase titulo mb-3 fs-5" style="color: #606c38;">Contactos</h4>
+                <p class="info fs-6 mb-3" style="color: #606c38;"><i class="bi bi-phone"></i> 967369623
+                </p>
+                <p class="info fs-6 mb-3" style="color: #606c38;"><i class="bi bi-mailbox"></i>
+                    planetaquarela@gmail.com -- escoladoambiente.info@gmail.com
+                </p>
+            </div>
+            <div class="col-md-4 mt-2">
+                <h4 class="text-uppercase titulo mb-3 fs-5" style="color: #606c38;">Redes Sociais</h4>
+                <a class="social-icon p-2" href="https://www.instagram.com/planetaquarela/" target="_blank"><i
+                        class="bi bi-instagram" style="color: #606c38;"></i></a>
+
+                <a class="social-icon p-2" href="https://www.facebook.com/planetaquarela" target="_blank"><i
+                        class="bi bi-facebook" style="color: #606c38;"></i></a>
+
+
+
+
+            </div>
+            <div class="col-md-4 mt-2">
+                <h4 class="text-uppercase titulo mb-3 fs-5" style="color: #606c38;">Morada</h4>
+                <p class="info" style="font-size: 15px; color: #606c38;">Calçada do Portal, Vilar
+                    Vila Nova de Poiares, Portugal
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/website.js"></script>
+
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'http://localhost/api/getFotos.php', true);
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          var fotografias = JSON.parse(xhr.responseText);
+          var portfolioContainer = document.querySelector('.portfolio-container');
+    
+          var photosPerRow = [3, 2, 1]; // Number of photos in each row
+          var currentRow = 0;
+    
+          fotografias.forEach(function (fotografia, index) {
+            var portfolioItem = document.createElement('div');
+            portfolioItem.className = 'col-lg-4 col-md-6 portfolio-item';
+    
+            var portfolioWrap = document.createElement('div');
+            portfolioWrap.className = 'portfolio-wrap';
+    
+            var image = document.createElement('img');
+            image.src = 'images/portfolio/' + fotografia.fotografias + '.JPG';
+            image.className = 'img-fluid imagem';
+            image.alt = '';
+    
+            portfolioWrap.appendChild(image);
+            portfolioItem.appendChild(portfolioWrap);
+            portfolioContainer.appendChild(portfolioItem);
+    
+            
+            if (index >= photosPerRow[currentRow] - 1) {
+              currentRow++;
+            }
+          });
+        } else {
+          console.error(xhr.responseText);
+        }
+      };
+      xhr.send();
+    </script>
+
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 50) {
+            nav.classList.add('bg-white', 'shadow');
+        } else {
+            nav.classList.remove('bg-white', 'shadow');
+        }
+    });
+</script>
+
+</body>
+
+</html>

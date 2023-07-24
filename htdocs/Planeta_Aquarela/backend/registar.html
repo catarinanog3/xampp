@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeta Aquarela</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/website.css">
+    <link rel="icon" href="images/logo.webp">
+
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.php">
+        <div class="logo">
+          <a><img src="images/logo.webp" alt="" class="img-fluid" width="150"></a>
+        </div>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+        <div id="logoutButton" style="display: none;">
+          <a href="#" style="color: rgb(70, 99, 154);"><i class="bi bi-box-arrow-left"></i></a>
+          <div id="loginButton">
+            <a href="#" style="color: rgb(70, 99, 154);"><i class="bi bi-box-arrow-right"></i></a>
+          </div>
+          <hr class="d-md-none">
+        </div>
+      </div>
+  </nav>
+  
+
+
+    <main>
+
+
+
+
+
+
+        <div class="container d-flex align-items-center justify-content-center vh-100" style="margin-top: 50px;">
+            <div class="card">
+              <div class="card-body rounded-3" style="background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(238, 238, 238) 100%); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <h2 class="titulo text-center">REGISTO</h2>
+                <div id="errorMessage" style="color: rgb(109, 109, 109);"></div>
+                <form id="registerForm"> 
+                  <div class="form-group" style="margin-bottom: 20px;">
+                    <label class="info" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label class="info" for="password">Senha:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                  </div>
+                  <button style="margin-top: 20px;" type="submit" class="btn btn-primary btn-lg btn-block rounded-2 text-white border-o">Criar conta</button>
+                  <a style="margin-top: 20px;" href="login.html" class="btn btn-primary btn-lg btn-block rounded-2 text-white border-o">Login</a>
+          
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+    </main>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/website.js"></script>
+    
+    
+    
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function (event) {
+          event.preventDefault();
+          var data = new FormData(this);
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', 'http://localhost/api/inserirUtilizadores.php', true);
+          xhr.onload = function () {
+            if (xhr.status === 200) {
+              if (xhr.responseText.trim() === "Utilizador registado com sucesso!") {
+                // Registro bem-sucedido, redirecionar para a página de login
+                window.location.href = 'login.html';
+              } else {
+                // Mostrar mensagem de erro no HTML
+                document.getElementById('errorMessage').textContent = xhr.responseText;
+              }
+            } else {
+              console.error('Erro na solicitação ao servidor:', xhr.status, xhr.statusText);
+            }
+          };
+          xhr.onerror = function () {
+            console.error('Erro na solicitação ao servidor: não foi possível conectar');
+          };
+          xhr.send(data);
+        });
+      </script>
+    
+      
+    
+    
+    
+
+
+</body>
+
+</html>

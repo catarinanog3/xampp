@@ -1,0 +1,202 @@
+[Sun Jul 23 19:50:49.582402 2023] [ssl:warn] [pid 1112:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:50:49.634659 2023] [ssl:warn] [pid 1112:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:50:49.685523 2023] [mpm_winnt:notice] [pid 1112:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 19:50:49.685523 2023] [mpm_winnt:notice] [pid 1112:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 19:50:49.685523 2023] [core:notice] [pid 1112:tid 400] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 19:50:49.690510 2023] [mpm_winnt:notice] [pid 1112:tid 400] AH00418: Parent: Created child process 17404
+[Sun Jul 23 19:50:50.208657 2023] [ssl:warn] [pid 17404:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:50:50.250014 2023] [ssl:warn] [pid 17404:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:50:50.292899 2023] [mpm_winnt:notice] [pid 17404:tid 408] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 19:53:27.801282 2023] [ssl:warn] [pid 14964:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:53:27.853143 2023] [ssl:warn] [pid 14964:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:53:27.919965 2023] [mpm_winnt:notice] [pid 14964:tid 448] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 19:53:27.919965 2023] [mpm_winnt:notice] [pid 14964:tid 448] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 19:53:27.919965 2023] [core:notice] [pid 14964:tid 448] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 19:53:27.926946 2023] [mpm_winnt:notice] [pid 14964:tid 448] AH00418: Parent: Created child process 13140
+[Sun Jul 23 19:53:29.335180 2023] [ssl:warn] [pid 13140:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:53:29.424940 2023] [ssl:warn] [pid 13140:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 19:53:29.547612 2023] [mpm_winnt:notice] [pid 13140:tid 460] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 20:02:18.180025 2023] [ssl:warn] [pid 13676:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:02:18.229996 2023] [core:warn] [pid 13676:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 20:02:18.232988 2023] [ssl:warn] [pid 13676:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:02:18.279540 2023] [mpm_winnt:notice] [pid 13676:tid 432] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 20:02:18.279540 2023] [mpm_winnt:notice] [pid 13676:tid 432] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 20:02:18.280518 2023] [core:notice] [pid 13676:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 20:02:18.286503 2023] [mpm_winnt:notice] [pid 13676:tid 432] AH00418: Parent: Created child process 18340
+[Sun Jul 23 20:02:18.896005 2023] [ssl:warn] [pid 18340:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:02:18.948079 2023] [ssl:warn] [pid 18340:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:02:18.994189 2023] [mpm_winnt:notice] [pid 18340:tid 440] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 20:08:12.883865 2023] [ssl:warn] [pid 8220:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:08:12.931768 2023] [core:warn] [pid 8220:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 20:08:12.935614 2023] [ssl:warn] [pid 8220:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:08:12.980665 2023] [mpm_winnt:notice] [pid 8220:tid 432] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 20:08:12.980665 2023] [mpm_winnt:notice] [pid 8220:tid 432] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 20:08:12.980665 2023] [core:notice] [pid 8220:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 20:08:12.986652 2023] [mpm_winnt:notice] [pid 8220:tid 432] AH00418: Parent: Created child process 9380
+[Sun Jul 23 20:08:13.574157 2023] [ssl:warn] [pid 9380:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:08:13.624044 2023] [ssl:warn] [pid 9380:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:08:13.669878 2023] [mpm_winnt:notice] [pid 9380:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 20:13:44.032810 2023] [ssl:warn] [pid 4932:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:13:44.081900 2023] [core:warn] [pid 4932:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 20:13:44.085259 2023] [ssl:warn] [pid 4932:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:13:44.129780 2023] [mpm_winnt:notice] [pid 4932:tid 436] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 20:13:44.129780 2023] [mpm_winnt:notice] [pid 4932:tid 436] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 20:13:44.129780 2023] [core:notice] [pid 4932:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 20:13:44.135773 2023] [mpm_winnt:notice] [pid 4932:tid 436] AH00418: Parent: Created child process 4668
+[Sun Jul 23 20:13:44.726888 2023] [ssl:warn] [pid 4668:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:13:44.782335 2023] [ssl:warn] [pid 4668:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:13:44.833679 2023] [mpm_winnt:notice] [pid 4668:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 20:15:12.631236 2023] [ssl:warn] [pid 15916:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:15:12.683906 2023] [core:warn] [pid 15916:tid 448] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 20:15:12.687258 2023] [ssl:warn] [pid 15916:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:15:12.738830 2023] [mpm_winnt:notice] [pid 15916:tid 448] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 20:15:12.738830 2023] [mpm_winnt:notice] [pid 15916:tid 448] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 20:15:12.739042 2023] [core:notice] [pid 15916:tid 448] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 20:15:12.745810 2023] [mpm_winnt:notice] [pid 15916:tid 448] AH00418: Parent: Created child process 2268
+[Sun Jul 23 20:15:13.438939 2023] [ssl:warn] [pid 2268:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:15:13.498926 2023] [ssl:warn] [pid 2268:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 20:15:13.550782 2023] [mpm_winnt:notice] [pid 2268:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 20:15:33.684286 2023] [php:error] [pid 2268:tid 1888] [client ::1:52042] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:15:40.095116 2023] [php:error] [pid 2268:tid 1888] [client ::1:52051] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:15:53.781945 2023] [php:error] [pid 2268:tid 1888] [client ::1:52057] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:18:00.217753 2023] [php:error] [pid 2268:tid 1888] [client ::1:52082] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:19:43.905785 2023] [php:error] [pid 2268:tid 1888] [client ::1:52097] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:19:46.503874 2023] [php:error] [pid 2268:tid 1888] [client ::1:52097] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:21:36.394119 2023] [php:error] [pid 2268:tid 1888] [client ::1:52108] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:22:13.581395 2023] [php:error] [pid 2268:tid 1888] [client ::1:52155] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:31:36.060072 2023] [php:error] [pid 2268:tid 1884] [client ::1:52245] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:32:07.370161 2023] [php:error] [pid 2268:tid 1884] [client ::1:52252] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:33:38.479205 2023] [php:error] [pid 2268:tid 1880] [client ::1:52272] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:33:41.135675 2023] [php:error] [pid 2268:tid 1880] [client ::1:52272] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:33:53.065159 2023] [php:error] [pid 2268:tid 1880] [client ::1:52278] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:35:31.220828 2023] [php:error] [pid 2268:tid 1880] [client ::1:52289] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:36:31.433632 2023] [php:error] [pid 2268:tid 1880] [client ::1:52295] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:42:17.665036 2023] [php:error] [pid 2268:tid 1880] [client ::1:52319] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:42:41.400355 2023] [php:error] [pid 2268:tid 1880] [client ::1:52325] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:46:30.010306 2023] [php:error] [pid 2268:tid 1880] [client ::1:52334] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:50:44.782025 2023] [php:error] [pid 2268:tid 1880] [client ::1:52370] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 20:50:58.825858 2023] [php:error] [pid 2268:tid 1880] [client ::1:52374] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 21:01:09.558526 2023] [php:error] [pid 2268:tid 1880] [client ::1:52384] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:01:20.472483 2023] [php:error] [pid 2268:tid 1884] [client ::1:52739] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:11:10.283454 2023] [php:error] [pid 2268:tid 1888] [client ::1:53029] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:27:33.455226 2023] [ssl:warn] [pid 712:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:27:33.504966 2023] [core:warn] [pid 712:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 22:27:33.508962 2023] [ssl:warn] [pid 712:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:27:33.560864 2023] [mpm_winnt:notice] [pid 712:tid 428] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 22:27:33.560864 2023] [mpm_winnt:notice] [pid 712:tid 428] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 22:27:33.560864 2023] [core:notice] [pid 712:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 22:27:33.566848 2023] [mpm_winnt:notice] [pid 712:tid 428] AH00418: Parent: Created child process 22484
+Apache server interrupted...
+023] [ssl:warn] [pid 22484:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:27:34.207627 2023] [ssl:warn] [pid 22484:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:27:34.253237 2023] [mpm_winnt:notice] [pid 22484:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 22:30:38.608810 2023] [php:error] [pid 22484:tid 1932] [client ::1:53218] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:32:29.351031 2023] [php:error] [pid 22484:tid 1920] [client ::1:53241] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:42:21.040543 2023] [php:error] [pid 22484:tid 1884] [client ::1:53399] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:44:07.432322 2023] [php:error] [pid 22484:tid 1884] [client ::1:53405] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:44:09.232677 2023] [php:error] [pid 22484:tid 1884] [client ::1:53405] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:45:10.201376 2023] [php:error] [pid 22484:tid 1884] [client ::1:53425] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:53:01.117895 2023] [mpm_winnt:notice] [pid 712:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 23 22:53:31.121746 2023] [mpm_winnt:notice] [pid 712:tid 428] AH00431: Parent: Forcing termination of child process 22484
+[Sun Jul 23 22:55:40.330349 2023] [ssl:warn] [pid 17488:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:55:40.395270 2023] [ssl:warn] [pid 17488:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:55:40.441116 2023] [mpm_winnt:notice] [pid 17488:tid 428] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 22:55:40.441116 2023] [mpm_winnt:notice] [pid 17488:tid 428] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 22:55:40.441116 2023] [core:notice] [pid 17488:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 22:55:40.447099 2023] [mpm_winnt:notice] [pid 17488:tid 428] AH00418: Parent: Created child process 17696
+[Sun Jul 23 22:55:41.138297 2023] [ssl:warn] [pid 17696:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:55:41.196696 2023] [ssl:warn] [pid 17696:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 22:55:41.247895 2023] [mpm_winnt:notice] [pid 17696:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 22:55:52.296169 2023] [php:error] [pid 17696:tid 1888] [client ::1:53572] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 22:55:54.753270 2023] [php:error] [pid 17696:tid 1888] [client ::1:53572] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'formularios' in C:\\xampp\\htdocs\\api\\getFotos.php:9\nStack trace:\n#0 C:\\xampp\\htdocs\\api\\getFotos.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'formularios')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\api\\getFotos.php on line 9
+[Sun Jul 23 23:11:50.203615 2023] [ssl:warn] [pid 13668:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:11:50.265210 2023] [core:warn] [pid 13668:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:11:50.268637 2023] [ssl:warn] [pid 13668:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:11:50.314122 2023] [mpm_winnt:notice] [pid 13668:tid 432] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:11:50.314122 2023] [mpm_winnt:notice] [pid 13668:tid 432] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:11:50.314122 2023] [core:notice] [pid 13668:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:11:50.320106 2023] [mpm_winnt:notice] [pid 13668:tid 432] AH00418: Parent: Created child process 24556
+[Sun Jul 23 23:11:51.006631 2023] [ssl:warn] [pid 24556:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:11:51.068370 2023] [ssl:warn] [pid 24556:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:11:51.119298 2023] [mpm_winnt:notice] [pid 24556:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:16:59.634857 2023] [ssl:warn] [pid 20688:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:16:59.681066 2023] [core:warn] [pid 20688:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:16:59.684930 2023] [ssl:warn] [pid 20688:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:16:59.731113 2023] [mpm_winnt:notice] [pid 20688:tid 432] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:16:59.731113 2023] [mpm_winnt:notice] [pid 20688:tid 432] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:16:59.731113 2023] [core:notice] [pid 20688:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:16:59.737097 2023] [mpm_winnt:notice] [pid 20688:tid 432] AH00418: Parent: Created child process 23832
+[Sun Jul 23 23:17:00.430815 2023] [ssl:warn] [pid 23832:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:17:00.489242 2023] [ssl:warn] [pid 23832:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:17:00.542018 2023] [mpm_winnt:notice] [pid 23832:tid 440] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:23:37.455983 2023] [ssl:warn] [pid 7864:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:23:37.514270 2023] [core:warn] [pid 7864:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:23:37.517334 2023] [ssl:warn] [pid 7864:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:23:37.566015 2023] [mpm_winnt:notice] [pid 7864:tid 436] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:23:37.566015 2023] [mpm_winnt:notice] [pid 7864:tid 436] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:23:37.566015 2023] [core:notice] [pid 7864:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:23:37.572967 2023] [mpm_winnt:notice] [pid 7864:tid 436] AH00418: Parent: Created child process 19068
+[Sun Jul 23 23:23:38.267930 2023] [ssl:warn] [pid 19068:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:23:38.324309 2023] [ssl:warn] [pid 19068:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:23:38.368934 2023] [mpm_winnt:notice] [pid 19068:tid 440] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:26:14.050640 2023] [ssl:warn] [pid 8172:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:26:14.106078 2023] [core:warn] [pid 8172:tid 444] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:26:14.109071 2023] [ssl:warn] [pid 8172:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:26:14.159845 2023] [mpm_winnt:notice] [pid 8172:tid 444] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:26:14.159845 2023] [mpm_winnt:notice] [pid 8172:tid 444] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:26:14.159845 2023] [core:notice] [pid 8172:tid 444] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:26:14.165867 2023] [mpm_winnt:notice] [pid 8172:tid 444] AH00418: Parent: Created child process 2408
+[Sun Jul 23 23:26:14.833758 2023] [ssl:warn] [pid 2408:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:26:14.894772 2023] [ssl:warn] [pid 2408:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:26:14.943715 2023] [mpm_winnt:notice] [pid 2408:tid 444] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:28:21.676200 2023] [ssl:warn] [pid 23108:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:28:21.730796 2023] [core:warn] [pid 23108:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:28:21.734428 2023] [ssl:warn] [pid 23108:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:28:21.780941 2023] [mpm_winnt:notice] [pid 23108:tid 428] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:28:21.780941 2023] [mpm_winnt:notice] [pid 23108:tid 428] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:28:21.780941 2023] [core:notice] [pid 23108:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:28:21.788920 2023] [mpm_winnt:notice] [pid 23108:tid 428] AH00418: Parent: Created child process 8968
+[Sun Jul 23 23:28:22.445564 2023] [ssl:warn] [pid 8968:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:28:22.501784 2023] [ssl:warn] [pid 8968:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:28:22.548876 2023] [mpm_winnt:notice] [pid 8968:tid 440] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:30:43.468148 2023] [ssl:warn] [pid 6000:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:30:43.523380 2023] [core:warn] [pid 6000:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:30:43.527114 2023] [ssl:warn] [pid 6000:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:30:43.575035 2023] [mpm_winnt:notice] [pid 6000:tid 428] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:30:43.575035 2023] [mpm_winnt:notice] [pid 6000:tid 428] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:30:43.575035 2023] [core:notice] [pid 6000:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:30:43.581134 2023] [mpm_winnt:notice] [pid 6000:tid 428] AH00418: Parent: Created child process 10720
+[Sun Jul 23 23:30:44.249749 2023] [ssl:warn] [pid 10720:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:30:44.299077 2023] [ssl:warn] [pid 10720:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:30:44.347061 2023] [mpm_winnt:notice] [pid 10720:tid 440] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:32:42.495583 2023] [ssl:warn] [pid 20356:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:42.553987 2023] [core:warn] [pid 20356:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:32:42.556951 2023] [ssl:warn] [pid 20356:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:42.604594 2023] [mpm_winnt:notice] [pid 20356:tid 432] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:32:42.604594 2023] [mpm_winnt:notice] [pid 20356:tid 432] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:32:42.604594 2023] [core:notice] [pid 20356:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:32:42.609582 2023] [mpm_winnt:notice] [pid 20356:tid 432] AH00418: Parent: Created child process 21292
+[Sun Jul 23 23:32:43.289036 2023] [ssl:warn] [pid 21292:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:43.350899 2023] [ssl:warn] [pid 21292:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:43.395584 2023] [mpm_winnt:notice] [pid 21292:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:32:49.453178 2023] [mpm_winnt:crit] [pid 21292:tid 432] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 23 23:32:52.825880 2023] [ssl:warn] [pid 18124:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:52.893360 2023] [core:warn] [pid 18124:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:32:52.896353 2023] [ssl:warn] [pid 18124:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:52.951130 2023] [mpm_winnt:notice] [pid 18124:tid 428] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:32:52.952229 2023] [mpm_winnt:notice] [pid 18124:tid 428] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:32:52.952229 2023] [core:notice] [pid 18124:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:32:52.957287 2023] [mpm_winnt:notice] [pid 18124:tid 428] AH00418: Parent: Created child process 21332
+[Sun Jul 23 23:32:53.668083 2023] [ssl:warn] [pid 21332:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:53.723062 2023] [ssl:warn] [pid 21332:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:32:53.773171 2023] [mpm_winnt:notice] [pid 21332:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 23 23:36:06.681452 2023] [ssl:warn] [pid 2344:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:36:06.747297 2023] [core:warn] [pid 2344:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 23:36:06.749942 2023] [ssl:warn] [pid 2344:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:36:06.797818 2023] [mpm_winnt:notice] [pid 2344:tid 436] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Jul 23 23:36:06.797818 2023] [mpm_winnt:notice] [pid 2344:tid 436] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Jul 23 23:36:06.797818 2023] [core:notice] [pid 2344:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jul 23 23:36:06.803594 2023] [mpm_winnt:notice] [pid 2344:tid 436] AH00418: Parent: Created child process 9028
+[Sun Jul 23 23:36:07.507341 2023] [ssl:warn] [pid 9028:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:36:07.567067 2023] [ssl:warn] [pid 9028:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 23:36:07.617724 2023] [mpm_winnt:notice] [pid 9028:tid 432] AH00354: Child: Starting 150 worker threads.

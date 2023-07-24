@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+.text-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-left: 3rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+.background-image {
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 85%;
+}
+
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; 
+  }
+  
+  .map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+.texto-background {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 800;
+    color: white;
+    font-size: 60px !important;
+}
+
+.texto-background1 {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 800;
+    color: white;
+    font-size: 30px !important;
+}
+
+
+body {
+
+    background-color: rgb(245, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.titulo {
+    font-weight: 800;
+    text-shadow: 5px 5px 10px rgba(236, 236, 236, 0.2);
+    color: #393939;
+}
+
+
+
+.titulo-navbar {
+    font-weight: 800;
+    text-shadow: 5px 5px 10px rgba(236, 236, 236, 0.2);
+    color: #0a0a0a;
+}
+
+
+.info {
+    color: #373737;
+}
+
+
+.imagem {
+    transition: 0.1s;
+    box-shadow: 4px 1px 20px 1px rgba(0, 0, 0, 0.2);
+    opacity: 0.93;
+
+}
+
+.imagem:hover {
+
+    opacity: 85%;
+    transform: scale(1.010);
+    z-index: 2;
+
+}
+
+
+footer {
+    background: #ccd5ae;
+    box-shadow: 10px -8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.info-footer {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.social-icon {
+    font-size: 20px;
+    color: #acb3bd;
+}
+
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+.navbar {
+    
+    font-size: 20px;
+    font-weight: bold;
+    
+ 
+
+}
+
+.nav-link:hover {
+
+    opacity: 85%;
+    transform: scale(1.040);
+    z-index: 2;
+    
+
+}
+
+.navbar .nav-link.titulo {
+    color: white;
+}
+
+/* Text color when scrolling (black) */
+.navbar.bg-white.shadow .nav-link.titulo {
+    color: #393939;;
+}
+.navbar .icon i {
+    color: white;
+}
+
+/* Icon color when scrolling (black) */
+.navbar.bg-white.shadow .icon i {
+    color: #393939;;
+}
+
+
+/* Personalização da ScrollBar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, rgb(218, 218, 218) 0%, rgb(221, 221, 221) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, rgb(202, 202, 202) 0%, rgb(206, 206, 206) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, rgb(202, 202, 202) 0%, rgb(230, 230, 230) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+
+
+.btn {
+    background: #606c38;
+    font-size: 19px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 0px #2D2D2D;
+}
+
+.btn:hover {
+    background: #ccd5ae;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: #dbd8e3;
+
+}
+
+
+.form-control,
+.form-control:focus,
+.form-control:active {
+    padding: 12px;
+    font-size: 20px;
+    background: linear-gradient(180deg, rgb(215, 215, 215) 0%, rgb(210, 210, 210) 100%);
+    color: #484848;
+    font-family: 'Montserrat', sans-serif;    font-weight: bold;
+
+
+}
+
+.form-floating {
+    color: #dfdddd;
+    font-family: 'Montserrat', sans-serif;    font-size: 15px;
+    font-weight: bold;
+}
+
+#portfolio {
+    padding: 60px 0;
+   
+  }
+  
+  #portfolio #portfolio-flters {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  #portfolio .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  #portfolio .portfolio-item .portfolio-wrap {
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    margin: 0;
+  }
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+  
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .texto-background {
+        
+        font-size: 50px !important;
+    }
+    
+    .texto-background1 {
+       
+        font-size: 30px !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}

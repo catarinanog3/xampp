@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeta Aquarela</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/website.css">
+    <link rel="icon" href="images/logo.webp">
+
+
+
+</head>
+
+<style>
+    #formulario {
+        display: none;
+    }
+</style>
+
+
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container"><a class="navbar-brand d-flex align-items-center " href="index.php">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.webp" alt="" class="img-fluid" width="120"></a>
+                </div>
+            </a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1">
+                <span class="navbar-toggler-icon"></span></button>
+            <div id="navcol-1" class="collapse navbar-collapse">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link titulo" href="quemsomos.html" style="color: black"
+                            >Quem
+                            somos</a></li>
+                    <li class="nav-item"><a class="nav-link titulo" href="atividades.html"  style="color: black"
+                           >Atividades</a></li>
+    
+                    <li class="nav-item"><a class="nav-link titulo" href="galeria.html"  style="color: black"
+                            >Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link titulo" href="festasdeanos.html"  style="color: black"
+                            >Aniversários</a>
+                    </li>
+    
+                </ul>
+                <hr class="d-md-none">
+                
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <main>
+
+        <div class="row pb-5 pt-5" style="margin-top: 200px;">
+            <div class="col-md-6 text-center mx-auto">
+                <div class="titulo text-uppercase fs-1">Escola do Ambiente
+                </div>
+                <div class="info mt-2 fs-5">Uma viagem no tempo... Vem descobrir o que acontece na aldeia em cada
+                    estação do ano! Participa nas principais colheitas (como a do milho, da castanha, da azeitona, na
+                    vindima) e conhece algumas das nossas tradições como fazer o pão no forno a lenha, fazer queijo
+                    fresco e lavar a roupa nos lavadouros comunitários.
+
+                </div>
+            </div>
+        </div>
+
+        <div class="titulo text-uppercase fs-1 text-center">Atividades
+        </div>
+        <div id="atividadesContainer" class="container"></div>
+
+
+
+        <div class="row pb-5 pt-5">
+            <div class="col-md-6 text-center mx-auto">
+                <div class="titulo text-uppercase fs-1">Informações adicionais
+                </div>
+                <div class="info mt-2 fs-5">As atividades têm a duração de duas horas.
+                    <p> Horários: Fins-de-semana</p>
+                    <p> Sessão da manhã: das 10h00 às 12h00 •</p>
+                    <p> Sessão da tarde: das 15h00 às 17h00 •</p>
+                    <p> Embora direcionadas para crianças, as atividades são preparadas para serem realizadas em
+                        família.</p>
+                    Idade recomendada: Idades compreendidas entre os 3 e os 10 anos.
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="container">
+            <h2 class="titulo text-center">Formulário de Inscrição</h2>
+            <div class="col-md-6 text-center mx-auto">
+                <button id="mostrarFormulario"
+                    class="btn rounded-1 titulo w-100 text-white border-0 p-3 mt-3 mb-5">Mostrar Formulário</button>
+            </div>
+            <form id="formulario">
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="horario">Horário:</label>
+                    <select class="form-control" id="horario" name="horario" required>
+                        <option value="">Selecione</option>
+                        <option value="Manha">Período da Manhã</option>
+                        <option value="Tarde">Período da Tarde</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="sexo">Gênero:</label>
+                    <select class="form-control" id="sexo" name="sexo" required>
+                        <option value="">Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="morada">Morada:</label>
+                    <input type="text" class="form-control" id="morada" name="morada" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="telefone">Número de Telefone:</label>
+                    <input type="tel" class="form-control" id="num_telefone" name="num_telefone" required>
+                </div>
+            
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="acompanhantes">Número de Acompanhantes:</label>
+                    <input type="number" class="form-control" id="acompanhantes" name="acompanhantes" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="nome_crianca">Nome da Criança:</label>
+                    <input type="text" class="form-control" id="nome_crianca" name="nome_crianca" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="idade_crianca">Idade da Criança:</label>
+                    <input type="number" class="form-control" id="idade_crianca" name="idade_crianca" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="cuidados_medicos">Cuidados Médicos:</label>
+                    <textarea class="form-control" id="cuid_medicos" name="cuid_medicos" required></textarea>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="nif">NIF:</label>
+                    <input type="text" class="form-control" id="nif" name="nif" required>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label class="titulo" for="atividade">Atividade</label>
+                    <select class="form-control" id="atividade" name="atividade" required>
+                        <option value="">Selecione</option>
+                        <option value="O pão na aldeia">O PÃO NA ALDEIA
+                        </option>
+                        <option value="O ciclo do mel">O CICLO DO MEL
+                        </option>
+                        <option value="A ribeira e o tremoço">A RIBEIRA E O TREMOÇO
+                        </option>
+                        <option value="O ciclo do leite">O CICLO DO LEITE
+                        </option>
+                        <option value="O Papel">O PAPEL
+                        </option>
+                        <option value="Os lavadouros">OS LAVADOUROS
+                        </option>
+                        <option value="A desfolhada">A DESFOLHADA
+                        </option>
+                        <option value="A vindima">A VINDIMA
+                        </option>
+                        <option value="A castanha">A CASTANHA
+                        </option>
+                        <option value="O ciclo do azeite">O CICLO DO AZEITE
+                        </option>
+                        <option value="Oficina do Brinquedo">OFICINA DO BRINQUEDO
+                        </option>
+                    </select>
+                </div>
+
+                <div class="info mt-2 mb-2 fs-6">Após a marcação da atividade, receberá uma confirmação no seu email. Aguarde por uma aprovação por parte do Planeta Aquarela.
+                    <p>Nota: As atividades estão sujeitas às condições sazonais.</p>
+                </div>
+                
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block rounded-2 text-white border-0 mb-5">Submeter</button>
+
+            </form>
+
+            <div id="mensagem" style="display: none;" class="alert alert-success mt-4"></div>
+
+        </div>
+
+    </main>
+
+    <footer class="text-center p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-2">
+                    <h4 class="text-uppercase titulo mb-3 fs-5" style="color: #606c38;">Contactos</h4>
+                    <p class="info fs-6 mb-3" style="color: #606c38;"><i class="bi bi-phone"></i> 967369623
+                    </p>
+                    <p class="info fs-6 mb-3" style="color: #606c38;"><i class="bi bi-mailbox"></i>
+                        planetaquarela@gmail.com -- escoladoambiente.info@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <h4 class="text-uppercase titulo mb-3 fs-5" style="color: #606c38;">Redes Sociais</h4>
+                    <a class="social-icon p-2" href="https://www.instagram.com/planetaquarela/" target="_blank"><i
+                            class="bi bi-instagram" style="color: #606c38;"></i></a>
+
+                    <a class="social-icon p-2" href="https://www    .facebook.com/planetaquarela" target="_blank"><i
+                            class="bi bi-facebook" style="color: #606c38;"></i></a>
+
+
+
+
+                </div>
+                <div class="col-md-4 mt-2">
+                    <h4 class="text-uppercase titulo mb-3 fs-5" style="color: #606c38;">Morada</h4>
+                    <p class="info" style="font-size: 15px; color: #606c38;">Calçada do Portal, Vilar
+                        Vila Nova de Poiares, Portugal
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/website.js"></script>
+
+
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+    
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bg-white', 'shadow');
+            } else {
+                nav.classList.remove('bg-white', 'shadow');
+            }
+        });
+    </script>
+
+    <script>
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            var formData = new FormData(this);
+    
+            fetch('http://localhost/api/formularios.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(function(response) {
+                if (response.ok) {
+                    document.getElementById('mensagem').style.display = 'block';
+                    document.getElementById('mensagem').innerHTML = '<strong>O formulário foi enviado com sucesso!</strong>';
+                } else {
+                    console.error('Erro ao enviar o formulário:', response.status);
+                }
+            })
+            .catch(function(error) {
+                console.error('Erro de conexão:', error);
+            });
+        });
+    </script>
+    
+      
+
+    <script>
+        const botaoMostrarFormulario = document.getElementById("mostrarFormulario");
+        const formulario = document.getElementById("formulario");
+
+        botaoMostrarFormulario.addEventListener("click", function () {
+            formulario.style.display = "block";
+            botaoMostrarFormulario.style.display = "none";
+        });
+    </script>
+
+
+
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'http://localhost/api/getAtividades.php', true);
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                var atividades = JSON.parse(xhr.responseText);
+                var container = document.getElementById('atividadesContainer');
+
+                atividades.forEach(function (atividade) {
+                    var div = document.createElement('div');
+                    div.className = 'titulo text-uppercase fs-3 mt-4';
+                    div.textContent = atividade.titulo;
+
+                    var descricao = document.createElement('div');
+                    descricao.className = 'info fs-5 mt-2';
+                    descricao.textContent = atividade.descricao;
+
+                    var row = document.createElement('div');
+                    row.className = 'row';
+                    var col = document.createElement('div');
+                    col.className = 'col-md-6 offset-md-3';
+                    col.appendChild(div);
+                    col.appendChild(descricao);
+                    row.appendChild(col);
+
+                    container.appendChild(row);
+                });
+            } else {
+                console.error(xhr.responseText);
+            }
+        };
+        xhr.send();
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

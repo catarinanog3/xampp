@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Aquarela</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/website.css">
+  <link rel="icon" href="images/logo.webp">
+
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.php">
+        <div class="logo">
+          <a><img src="images/logo.webp" alt="" class="img-fluid" width="150"></a>
+        </div>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+        <div id="logoutButton" style="display: none;">
+          <a href="#" style="color: rgb(70, 99, 154);"><i class="bi bi-box-arrow-left"></i></a>
+          <div id="loginButton">
+            <a href="#" style="color: rgb(70, 99, 154);"><i class="bi bi-box-arrow-right"></i></a>
+          </div>
+          <hr class="d-md-none">
+        </div>
+      </div>
+  </nav>
+  <main>
+
+
+
+    <div class="container" style="margin-top: 200px;">
+      <h2 class="titulo text-center">Inscrições Atividades</h2>
+      <div class="info mt-2 fs-5 text-center mb-2">Consulte aqui todas as informações relativamente a inscrições
+        efetuadas nas atividades por parte dos utilizadores!
+      </div>
+
+      <div class="table-responsive">
+        <table id="formulariosTable" class="table table-striped">
+          <thead>
+            <tr>
+              <th>Id</th>
+
+              <th>Email</th>
+              <th>Horário</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Morada</th>
+              <th>Telefone</th>
+              <th>Acompanhantes</th>
+              <th>Nome da Criança</th>
+              <th>Idade da Criança</th>
+              <th>Cuidados Médicos</th>
+              <th>NIF</th>
+              <th>Atividade</th>
+
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <hr class="my-5">
+
+    <div class="container mt-5">
+      <h2 class="titulo text-center">Inscrições Aniversários</h2>
+      <div class="info mt-2 fs-5 text-center mb-2">Consulte aqui todas as informações relativamente a inscrições em
+        festas de aniversário efetuadas nas atividades por parte dos utilizadores!</div>
+
+      <div class="table-responsive">
+        <table id="aniversariosTable" class="table table-striped">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Email</th>
+              <th>Horário</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Morada</th>
+              <th>Telefone</th>
+              <th>Num Participantes</th>
+              <th>Nome Aniversariante</th>
+              <th>Idade Aniversariante</th>
+              <th>Atividade</th>
+            </tr>
+          </thead>
+          <tbody id="aniversariosBody"></tbody>
+        </table>
+      </div>
+
+
+    </div>
+
+
+    <hr class="my-5">
+
+    <div class="container mt-5">
+      <h2 class="titulo text-center">Mensagens de Aprovação: Atividades</h2>
+      <div class="info mt-2 fs-5 text-center mb-3">Aprove aqui as inscrições nas atividades efetuadas pelos utilizadores. Escreva uma mensagem de resposta com informações relativamente ao preço ou informações adicionais que possam ser importantes. O utilizador receberá a resposta através do email.</div>
+      <form id="notificarFormAtividades">
+        <div class="form-group">
+          <label class="titulo mb-2" for="formularioAtividades">Número da Atividade</label>
+          <select class="form-control" id="formularioAtividades" name="formularioAtividades" required></select>
+        </div>
+        <div class="form-group">
+          <label class="titulo mb-2" for="emailAtividades">E-mail:</label>
+          <input type="email" class="form-control" id="emailAtividades" name="emailAtividades" readonly>
+        </div>
+        <div class="form-group">
+          <label class="titulo mb-2" for="mensagemAtividades">Mensagem de Resposta:</label>
+          <textarea class="form-control" id="mensagemAtividades" name="mensagemAtividades" required></textarea>
+        </div>
+        <div class="col-md-6 text-center mx-auto">
+          <button type="submit" class="btn rounded-1 titulo w-50 text-white border-0 p-3 mt-3">Notificar</button>
+        </div>
+      </form>
+    </div>
+
+    <hr class="my-5">
+
+    
+    <div class="container mt-5">
+      <h2 class="titulo text-center">Mensagens de Aprovação: Aniversários</h2>
+      <div class="info mt-2 fs-5 text-center mb-3">Aprove aqui as inscrições nas festas de aniversário efetuadas pelos utilizadores. Escreva uma mensagem de resposta com informações adicionais que possam ser importantes. O utilizador receberá a resposta através do email.</div>
+      <form id="notificarFormAniversarios">
+        <div class="form-group">
+          <label class="titulo mb-2" for="formularioAniversarios">Número do Aniversário</label>
+          <select class="form-control" id="formularioAniversarios" name="formularioAniversarios" required></select>
+        </div>
+        <div class="form-group">
+          <label class="titulo mb-2" for="emailAniversarios">E-mail:</label>
+          <input type="email" class="form-control" id="emailAniversarios" name="emailAniversarios" readonly>
+        </div>
+        <div class="form-group">
+          <label class="titulo mb-2" for="mensagemAniversarios">Mensagem de Resposta:</label>
+          <textarea class="form-control" id="mensagemAniversarios" name="mensagemAniversarios" required></textarea>
+        </div>
+        <div class="col-md-6 text-center mx-auto">
+          <button type="submit" class="btn rounded-1 titulo w-50 text-white border-0 p-3 mt-3">Notificar</button>
+        </div>
+      </form>
+    </div>
+
+
+
+
+    <hr class="my-5">
+
+
+
+
+    <div class="container mt-5">
+      <h2 class="titulo text-center">Inserir Atividade</h2>
+      <div class="info mt-2 fs-5 text-center mb-2">Insira atividades novas para informar os utilizadores
+      </div>
+      <form id="atividadeForm">
+        <div class="form-group">
+          <label class="titulo" for="titulo">Título:</label>
+          <input type="text" class="form-control" id="titulo" name="titulo" required>
+        </div>
+        <div class="form-group">
+          <label class="titulo" for="descricao">Descrição:</label>
+          <textarea class="form-control" id="descricao" name="descricao" required></textarea>
+        </div>
+        <div class="col-md-6 text-center mx-auto">
+          <button type="submit" class="btn rounded-1 titulo w-50 text-white border-0 p-3"
+            style="margin-bottom: 20px; margin-top: 20px;">Inserir</button>
+        </div>
+      </form>
+    </div>
+
+
+    <hr class="my-5">
+
+
+    <div class="container" style="margin-top: 80px;">
+      <h2 class="titulo text-center">Apagar Atividade</h2>
+      <div class="info mt-2 fs-5 text-center mb-2">Aqui pode apagar atividades antigas ou atividades que foram
+        adicionadas por engano.
+      </div>
+      <form id="deleteForm">
+        <div class="form-group">
+          <label class="titulo" for="atividade">Atividade:</label>
+          <select class="form-control" id="atividade" name="atividade" required>
+          </select>
+        </div>
+        <div class="col-md-6 text-center mx-auto">
+          <button type="submit" class="btn rounded-1 titulo w-50 text-white border-0 p-3"
+            style="margin-bottom: 50px; margin-top: 20px;">Apagar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container mt-5">
+      <h2 class="titulo text-center">Inserir Fotos</h2>
+      <div class="info mt-2 fs-5 text-center mb-2">Insira fotos novas na galeria</div>
+      <form id="fotosForm" method="post" enctype="multipart/form-data">
+         
+          <div class="form-group">
+              <label for="fotografias">Selecione uma fotografia:</label>
+              <input type="file" class="form-control" id="fotografias" name="fotografias" required>
+          </div>
+          <div class="col-md-6 text-center mx-auto">
+              <button type="submit" class="btn rounded-1 titulo w-50 text-white border-0 p-3"
+                  style="margin-bottom: 20px; margin-top: 20px;">Inserir</button>
+          </div>
+      </form>
+  </div>
+
+
+
+
+
+  </main>
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/website.js"></script>
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+            nav.classList.add('bg-white', 'shadow');
+        } else {
+            nav.classList.remove('bg-white', 'shadow');
+        }
+    });
+</script>
+
+  <script>
+    function fillFormOptions(url, selectId, emailId) {
+      var select = document.getElementById(selectId);
+      var emailSelect = document.getElementById(emailId);
+  
+      fetch(url)
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (data) {
+          data.forEach(function (item) {
+            var option = document.createElement('option');
+            option.value = item.id;
+            option.textContent = 'ID: ' + item.id;
+            select.appendChild(option);
+  
+            option.dataset.email = item.email;
+          });
+        })
+        .catch(function (error) {
+          console.error(error);
+        });
+  
+      select.addEventListener('change', function () {
+        var selectedOption = this.options[this.selectedIndex];
+        var email = selectedOption.dataset.email;
+        emailSelect.value = email;
+      });
+    }
+  
+    fillFormOptions('http://localhost/api/getFormularios.php', 'formularioAtividades', 'emailAtividades');
+    fillFormOptions('http://localhost/api/getAniversarios.php', 'formularioAniversarios', 'emailAniversarios');
+  </script>
+  
+
+
+  <script>
+    document.getElementById('atividadeForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      var data = new FormData(this);
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'http://localhost/api/inserirAtividades.php', true);
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          console.log(xhr.responseText);
+          document.getElementById('atividadeForm').reset();
+        } else {
+          console.error(xhr.responseText);
+        }
+      };
+      xhr.send(data);
+    });
+  </script>
+<script>
+  document.getElementById('fotosForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      var data = new FormData(this);
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'http://localhost/api/inserirFotos.php', true);
+      xhr.onload = function () {
+          if (xhr.status === 200) {
+              console.log(xhr.responseText);
+              document.getElementById('fotosForm').reset();
+          } else {
+              console.error(xhr.responseText);
+          }
+      };
+      xhr.send(data);
+  });
+</script>
+
+
+
+
+
+  <script>
+    var loggedIn = localStorage.getItem('loggedIn');
+    if (!loggedIn) {
+      window.location.href = 'login.html';
+    }
+
+    var logoutButton = document.getElementById('logoutButton');
+    var loginButton = document.getElementById('loginButton');
+
+    var loggedIn = localStorage.getItem('loggedIn');
+    if (loggedIn) {
+      logoutButton.style.display = 'block';
+      loginButton.style.display = 'none';
+    } else {
+      logoutButton.style.display = 'none';
+      loginButton.style.display = 'block';
+    }
+
+    function logout() {
+      localStorage.removeItem('loggedIn');
+      window.location.href = 'login.html';
+    }
+
+    logoutButton.addEventListener('click', logout);
+  </script>
+
+
+
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'http://localhost/api/getFormularios.php', true);
+    xhr.onload = function () {
+      if (xhr.status === 200) {
+        var formularios = JSON.parse(xhr.responseText);
+        var tbody = document.querySelector('#formulariosTable tbody');
+
+        formularios.forEach(function (formulario) {
+          var row = document.createElement('tr');
+
+
+          var idCell = document.createElement('td');
+          idCell.textContent = formulario.id;
+          row.appendChild(idCell);
+
+
+          var emailCell = document.createElement('td');
+          emailCell.textContent = formulario.email;
+          row.appendChild(emailCell);
+
+          var horarioCell = document.createElement('td');
+          horarioCell.textContent = formulario.horario;
+          row.appendChild(horarioCell);
+
+          var nomeCell = document.createElement('td');
+          nomeCell.textContent = formulario.nome;
+          row.appendChild(nomeCell);
+
+          var sexoCell = document.createElement('td');
+          sexoCell.textContent = formulario.sexo;
+          row.appendChild(sexoCell);
+
+          var moradaCell = document.createElement('td');
+          moradaCell.textContent = formulario.morada;
+          row.appendChild(moradaCell);
+
+          var telefoneCell = document.createElement('td');
+          telefoneCell.textContent = formulario.num_telefone;
+          row.appendChild(telefoneCell);
+
+
+          var acompanhantesCell = document.createElement('td');
+          acompanhantesCell.textContent = formulario.acompanhantes;
+          row.appendChild(acompanhantesCell);
+
+          var nomeCriancaCell = document.createElement('td');
+          nomeCriancaCell.textContent = formulario.nome_crianca;
+          row.appendChild(nomeCriancaCell);
+
+          var idadeCriancaCell = document.createElement('td');
+          idadeCriancaCell.textContent = formulario.idade_crianca;
+          row.appendChild(idadeCriancaCell);
+
+          var cuidadosMedicosCell = document.createElement('td');
+          cuidadosMedicosCell.textContent = formulario.cuid_medicos;
+          row.appendChild(cuidadosMedicosCell);
+
+          var nifCell = document.createElement('td');
+          nifCell.textContent = formulario.nif;
+          row.appendChild(nifCell);
+
+          var atividadeCell = document.createElement('td');
+          atividadeCell.textContent = formulario.atividade;
+          row.appendChild(atividadeCell);
+
+
+
+
+
+          tbody.appendChild(row);
+        });
+      } else {
+        console.error(xhr.responseText);
+      }
+    };
+    xhr.send();
+  </script>
+
+
+
+  <script>
+    var xhrAniversarios = new XMLHttpRequest();
+    xhrAniversarios.open('GET', 'http://localhost/api/getAniversarios.php', true);
+    xhrAniversarios.onload = function () {
+      if (xhrAniversarios.status === 200) {
+        var aniversarios = JSON.parse(xhrAniversarios.responseText);
+        var tbodyAniversarios = document.querySelector('#aniversariosTable tbody');
+
+        aniversarios.forEach(function (aniversario) {
+          var row = document.createElement('tr');
+
+          var idCell = document.createElement('td');
+          idCell.textContent = aniversario.id;
+          row.appendChild(idCell);
+
+
+          var emailCell = document.createElement('td');
+          emailCell.textContent = aniversario.email;
+          row.appendChild(emailCell);
+
+          var horarioCell = document.createElement('td');
+          horarioCell.textContent = aniversario.horario;
+          row.appendChild(horarioCell);
+
+          var nomeCell = document.createElement('td');
+          nomeCell.textContent = aniversario.nome;
+          row.appendChild(nomeCell);
+
+          var sexoCell = document.createElement('td');
+          sexoCell.textContent = aniversario.sexo;
+          row.appendChild(sexoCell);
+
+          var moradaCell = document.createElement('td');
+          moradaCell.textContent = aniversario.morada;
+          row.appendChild(moradaCell);
+
+          var telefoneCell = document.createElement('td');
+          telefoneCell.textContent = aniversario.num_telefone;
+          row.appendChild(telefoneCell);
+
+          var participantesCell = document.createElement('td');
+          participantesCell.textContent = aniversario.participantes;
+          row.appendChild(participantesCell);
+
+          var nomeAniversarianteCell = document.createElement('td');
+          nomeAniversarianteCell.textContent = aniversario.nome_aniversariante;
+          row.appendChild(nomeAniversarianteCell);
+
+          var idadeAniversarianteCell = document.createElement('td');
+          idadeAniversarianteCell.textContent = aniversario.idade_aniversariante;
+          row.appendChild(idadeAniversarianteCell);
+
+          var atividadeCell = document.createElement('td');
+          atividadeCell.textContent = aniversario.atividade;
+          row.appendChild(atividadeCell);
+
+          tbodyAniversarios.appendChild(row);
+        });
+      } else {
+        console.error(xhrAniversarios.responseText);
+      }
+    };
+    xhrAniversarios.send();
+  </script>
+
+  <script>
+    var select = document.getElementById('formulario');
+
+    fetch('http://localhost/api/getFormularios.php')
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (formularios) {
+        formularios.forEach(function (formulario) {
+          var option = document.createElement('option');
+          option.value = formulario.id;
+          option.textContent = formulario.id;
+          select.appendChild(option);
+        });
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
+
+    document.getElementById('notificarForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      var formularioId = document.getElementById('formulario').value;
+      var mensagem = document.getElementById('mensagem').value;
+
+
+      alert('Notificação enviada para o formulário ' + formularioId + ' com a mensagem: ' + mensagem);
+
+      document.getElementById('formulario').value = '';
+      document.getElementById('mensagem').value = '';
+    });
+  </script>
+
+
+  <script>
+
+    function fillActivityOptions() {
+      var select = document.getElementById('atividade');
+
+      fetch('http://localhost/api/getAtividades.php')
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (activities) {
+          activities.forEach(function (activity) {
+            var option = document.createElement('option');
+            option.value = activity.id;
+            option.textContent = activity.titulo;
+            select.appendChild(option);
+          });
+        })
+        .catch(function (error) {
+          console.error(error);
+        });
+    }
+
+    function handleDeleteFormSubmit(event) {
+      event.preventDefault();
+
+      var select = document.getElementById('atividade');
+      var selectedOption = select.options[select.selectedIndex];
+
+      var activityId = selectedOption.value;
+
+      fetch('http://localhost/api/apagarAtividade.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: 'id=' + encodeURIComponent(activityId)
+      })
+        .then(function (response) {
+          return response.text();
+        })
+        .then(function (message) {
+          alert(message);
+          select.remove(selectedOption.index);
+        })
+        .catch(function (error) {
+          console.error(error);
+        });
+    }
+
+    fillActivityOptions();
+
+    document.getElementById('deleteForm').addEventListener('submit', handleDeleteFormSubmit);
+
+  </script>
+
+
+</body>
+
+</html>
